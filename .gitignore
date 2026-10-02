@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Generated test output
+tests/out/
+tests/out_batch/
+
+# OS / IDE
+.vscode/
+.DS_Store
+Thumbs.db

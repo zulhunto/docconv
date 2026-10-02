@@ -1,0 +1,21 @@
+output_dir: ./out
+ocr:
+  enabled: true
+  lang: ind+eng
+  auto_detect: true
+  min_chars_per_page: 25
+images:
+  extract: true
+  folder: assets
+  min_size_px: 64
+pdf:
+  engine: pymupdf4llm   # atau: docling
+cleaning:
+  strip_headers_footers: true
+  dehyphenate: true
+  max_blank_lines: 1
+tables:
+  fallback_html_on_merged_cells: true
+batch:
+  recursive: true
+  continue_on_error: true

@@ -1,0 +1,4 @@
+Catatan Rapat Strategi 2026
+
+1. Pendahuluan rencana transformasi digital.
+2. Implementasi pipeline AI lokal dan otomatisasi dokumen.
